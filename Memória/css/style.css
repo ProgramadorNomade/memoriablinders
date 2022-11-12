@@ -1,0 +1,57 @@
+body{
+    background-image: url(../imagens/bg-peaky-blinders.jpg);
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container img{
+    margin: 0;
+    width: 100px;
+}
+
+.container h1{
+    font-family: 'press start 2p', cursive;
+    font-size: 25px;
+    margin: 0 0 45px 0;
+    color: red;
+}
+
+h2{
+    color: #fff;
+    font-family: 'press start 2p';
+    font-size: 10px;
+    margin-top: 60px;
+}
+
+input{
+    width: 40%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'press start 2p';
+}
+
+button{
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
